@@ -31,9 +31,6 @@ class WebInterfaceHandler implements HttpHandler {
             if (!isExists) ClientConnectionList.clientConnections.add(clientConnection);
         }
 
-
-
-
         String method = exchange.getRequestMethod();
 
         if (method.equalsIgnoreCase("GET")) {
